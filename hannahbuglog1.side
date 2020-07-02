@@ -1,0 +1,762 @@
+{
+  "id": "c480c26c-3a4a-41cb-8a91-db6a69ef53af",
+  "version": "2.0",
+  "name": "hannahbuglog1",
+  "url": "https://retail-onlinebanking-uat.co-opbank.co.ke",
+  "tests": [{
+    "id": "50b56cfd-5f2e-4f13-8079-89a31a9abcb9",
+    "name": "buglogs",
+    "commands": [{
+      "id": "6c787eab-2323-419f-b49b-9f6b86953b99",
+      "comment": "",
+      "command": "open",
+      "target": "/iportalweb/iRetail@1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "890d5da7-a444-4320-a97c-913bf02464a6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "260dbb6b-e1e4-4471-832f-83ce1e104f16",
+      "comment": "",
+      "command": "click",
+      "target": "id=mat-input-0",
+      "targets": [
+        ["id=mat-input-0", "id"],
+        ["css=#mat-input-0", "css:finder"],
+        ["xpath=//input[@id='mat-input-0']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "643d56b7-93ae-4795-860c-cbbf4f26066b",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-0",
+      "targets": [
+        ["id=mat-input-0", "id"],
+        ["css=#mat-input-0", "css:finder"],
+        ["xpath=//input[@id='mat-input-0']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "vsitati"
+    }, {
+      "id": "04aa2580-f896-410f-a417-d981835d8f3b",
+      "comment": "",
+      "command": "click",
+      "target": "id=mat-input-1",
+      "targets": [
+        ["id=mat-input-1", "id"],
+        ["css=#mat-input-1", "css:finder"],
+        ["xpath=//input[@id='mat-input-1']", "xpath:attributes"],
+        ["xpath=//mat-form-field[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f6bacde-b464-4149-a63a-2794745862ef",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-1",
+      "targets": [
+        ["id=mat-input-1", "id"],
+        ["css=#mat-input-1", "css:finder"],
+        ["xpath=//input[@id='mat-input-1']", "xpath:attributes"],
+        ["xpath=//mat-form-field[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "111111"
+    }, {
+      "id": "575d2ff3-46a0-4244-b23b-64e79f2fe340",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-accent > .mat-button-wrapper",
+      "targets": [
+        ["css=.mat-accent > .mat-button-wrapper", "css:finder"],
+        ["xpath=//div[3]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4da7823d-df48-496a-853c-7fc464369648",
+      "comment": "",
+      "command": "type",
+      "target": "css=.otp-input:nth-child(1)",
+      "targets": [
+        ["css=.otp-input:nth-child(1)", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//mat-dialog-container[@id='mat-dialog-0']/app-otp-dialog/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "c4a73e09-4e53-447e-b3af-943dcdc1187f",
+      "comment": "",
+      "command": "type",
+      "target": "css=.otp-input:nth-child(2)",
+      "targets": [
+        ["css=.otp-input:nth-child(2)", "css:finder"],
+        ["xpath=(//input[@type='text'])[3]", "xpath:attributes"],
+        ["xpath=//mat-dialog-container[@id='mat-dialog-0']/app-otp-dialog/div/form/div/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "5e02b2f1-93c8-49c3-af62-45976d80a4c8",
+      "comment": "",
+      "command": "type",
+      "target": "css=.otp-input:nth-child(3)",
+      "targets": [
+        ["css=.otp-input:nth-child(3)", "css:finder"],
+        ["xpath=(//input[@type='text'])[4]", "xpath:attributes"],
+        ["xpath=//mat-dialog-container[@id='mat-dialog-0']/app-otp-dialog/div/form/div/div/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "16d52738-f5a4-47d3-953f-5f79c6e9fee0",
+      "comment": "",
+      "command": "type",
+      "target": "css=.otp-input:nth-child(4)",
+      "targets": [
+        ["css=.otp-input:nth-child(4)", "css:finder"],
+        ["xpath=(//input[@type='text'])[5]", "xpath:attributes"],
+        ["xpath=//mat-dialog-container[@id='mat-dialog-0']/app-otp-dialog/div/form/div/div/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "23c0d2bb-e004-4963-a3c3-cb2327ebb188",
+      "comment": "",
+      "command": "type",
+      "target": "css=.otp-input:nth-child(5)",
+      "targets": [
+        ["css=.otp-input:nth-child(5)", "css:finder"],
+        ["xpath=(//input[@type='text'])[6]", "xpath:attributes"],
+        ["xpath=//mat-dialog-container[@id='mat-dialog-0']/app-otp-dialog/div/form/div/div/input[5]", "xpath:idRelative"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "9b631c3b-4b22-4356-bd74-9956709e0fa5",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ng-untouched",
+      "targets": [
+        ["css=.ng-untouched", "css:finder"],
+        ["xpath=(//input[@type='text'])[7]", "xpath:attributes"],
+        ["xpath=//mat-dialog-container[@id='mat-dialog-0']/app-otp-dialog/div/form/div/div/input[6]", "xpath:idRelative"],
+        ["xpath=//input[6]", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "8461d0f4-291d-421d-abaf-9b3a3a63730f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cdk-focused",
+      "targets": [
+        ["css=.cdk-focused", "css:finder"],
+        ["xpath=//mat-dialog-container[@id='mat-dialog-0']/app-otp-dialog/div/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//form/div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Confirm')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1cbfb851-1fdc-4213-be99-d2690ff650a6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Bill Payment",
+      "targets": [
+        ["linkText=Bill Payment", "linkText"],
+        ["css=.flaticon-COOP_BILL_PAYMENT_WS", "css:finder"],
+        ["xpath=//a[contains(text(),'Bill Payment')]", "xpath:link"],
+        ["xpath=//div[@id='mCSB_1_container']/div/div[41]/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[73]", "xpath:href"],
+        ["xpath=//div[41]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Bill Payment')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f2be02c-fbd6-4555-a26a-2acc639cf4da",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "linkText=Bill Payment",
+      "targets": [
+        ["linkText=Bill Payment", "linkText"],
+        ["css=.flaticon-COOP_BILL_PAYMENT_WS", "css:finder"],
+        ["xpath=//a[contains(text(),'Bill Payment')]", "xpath:link"],
+        ["xpath=//div[@id='mCSB_1_container']/div/div[41]/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[73]", "xpath:href"],
+        ["xpath=//div[41]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Bill Payment')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "476ec4fa-d542-437b-adb1-a0a7dc060fe7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(1) #div_0 .card:nth-child(9) > .bill-body",
+      "targets": [
+        ["css=.row:nth-child(1) #div_0 .card:nth-child(9) > .bill-body", "css:finder"],
+        ["xpath=//div[@onclick='airtimePurchase()']", "xpath:attributes"],
+        ["xpath=//div[@id='div_0']/div/div/div/div/div[6]/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/div/div/div[6]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "60599b1d-85d9-4ce5-9122-49a2923ee54d",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b95560f4-2729-4f46-ab22-05b790d524a9",
+      "comment": "",
+      "command": "click",
+      "target": "id=AIRTIME_FORM_01-POST_PRE_RADIO-1",
+      "targets": [
+        ["id=AIRTIME_FORM_01-POST_PRE_RADIO-1", "id"],
+        ["css=#AIRTIME_FORM_01-POST_PRE_RADIO-1", "css:finder"],
+        ["xpath=//input[@id='AIRTIME_FORM_01-POST_PRE_RADIO-1']", "xpath:attributes"],
+        ["xpath=//div[@id='div_0']/div/div/div/div/form/div/div/div[5]/div/div/div/div/div[2]/div/label[2]/input", "xpath:idRelative"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "86170fdb-9899-4b48-8090-d2fd1e3beba1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ok",
+      "targets": [
+        ["linkText=Ok", "linkText"],
+        ["css=.ct-right-btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Ok')]", "xpath:link"],
+        ["xpath=//div[@id='FOOTER_DIV']/div[2]/div/div/div[2]/div/div[3]/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ok')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b94c47b9-993e-4229-8f05-3bb71fd79b92",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Transfer",
+      "targets": [
+        ["linkText=Transfer", "linkText"],
+        ["css=.flaticon-COOP_FUND_TRANSFER_WS", "css:finder"],
+        ["xpath=(//a[contains(text(),'Transfer')])[3]", "xpath:link"],
+        ["xpath=//div[@id='mCSB_1_container']/div/div[39]/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[71]", "xpath:href"],
+        ["xpath=//div[39]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5413535d-4b46-4239-a157-ad39c9de95a2",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "linkText=Transfer",
+      "targets": [
+        ["linkText=Transfer", "linkText"],
+        ["css=.flaticon-COOP_FUND_TRANSFER_WS", "css:finder"],
+        ["xpath=(//a[contains(text(),'Transfer')])[3]", "xpath:link"],
+        ["xpath=//div[@id='mCSB_1_container']/div/div[39]/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[71]", "xpath:href"],
+        ["xpath=//div[39]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3927a63-6f6d-4e46-b140-2aff333b5c6f",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='0']/div/div/div/div/div[4]/div",
+      "targets": [
+        ["xpath=//div[@id='0']/div/div/div/div/div[4]/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/div/div/div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "82de3f09-5395-4bab-aaf2-dac2009712fb",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "xpath=//div[@id='0']/div/div/div/div/div[4]/div",
+      "targets": [
+        ["xpath=//div[@id='0']/div/div/div/div/div[4]/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/div/div/div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df789113-7a42-4ba4-ac69-260281a3555f",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='mobbank']/div/span[2]",
+      "targets": [
+        ["xpath=//div[@id='mobbank']/div/span[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/div/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'150,000 KES limit per transaction')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "44bf652f-d224-4959-8c00-bd4f000da956",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Bill Payment",
+      "targets": [
+        ["linkText=Bill Payment", "linkText"],
+        ["css=.flaticon-COOP_BILL_PAYMENT_WS", "css:finder"],
+        ["xpath=//a[contains(text(),'Bill Payment')]", "xpath:link"],
+        ["xpath=//div[@id='mCSB_1_container']/div/div[41]/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[73]", "xpath:href"],
+        ["xpath=//div[41]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Bill Payment')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "45218e66-77f7-434c-9b16-0cdc2dddfc0f",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "linkText=Bill Payment",
+      "targets": [
+        ["linkText=Bill Payment", "linkText"],
+        ["css=.flaticon-COOP_BILL_PAYMENT_WS", "css:finder"],
+        ["xpath=//a[contains(text(),'Bill Payment')]", "xpath:link"],
+        ["xpath=//div[@id='mCSB_1_container']/div/div[41]/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[73]", "xpath:href"],
+        ["xpath=//div[41]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Bill Payment')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c42b0bf-0f49-4d05-9a20-e7a27915f77c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.airtime-purchase > .bill-body",
+      "targets": [
+        ["css=.airtime-purchase > .bill-body", "css:finder"],
+        ["xpath=//div[@onclick='airtimePurchase()']", "xpath:attributes"],
+        ["xpath=//div[@id='div_0']/div/div/div/div/div[6]/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/div/div/div[6]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "84df55d8-5fbb-46df-b1dc-bea48f71d726",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=AIRTIME_FORM_01-BTN_TELKOM",
+      "targets": [
+        ["id=AIRTIME_FORM_01-BTN_TELKOM", "id"],
+        ["name=BTN_TELKOM", "name"],
+        ["css=#AIRTIME_FORM_01-BTN_TELKOM", "css:finder"],
+        ["xpath=//button[@id='AIRTIME_FORM_01-BTN_TELKOM']", "xpath:attributes"],
+        ["xpath=//div[@id='div_0']/div/div/div/div/form/div/div/div[4]/div/div/div/div/div/div/form/div[3]/di/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/di/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'TELKOM')]", "xpath:innerText"]
+      ],
+      "value": "12.36669921875,76"
+    }, {
+      "id": "a33ef72d-84bb-45e2-ac66-280167fabde8",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=AIRTIME_FORM_01-BTN_TELKOM",
+      "targets": [
+        ["id=AIRTIME_FORM_01-BTN_TELKOM", "id"],
+        ["name=BTN_TELKOM", "name"],
+        ["css=#AIRTIME_FORM_01-BTN_TELKOM", "css:finder"],
+        ["xpath=//button[@id='AIRTIME_FORM_01-BTN_TELKOM']", "xpath:attributes"],
+        ["xpath=//div[@id='div_0']/div/div/div/div/form/div/div/div[4]/div/div/div/div/div/div/form/div[3]/di/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/di/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'TELKOM')]", "xpath:innerText"]
+      ],
+      "value": "12.36669921875,76"
+    }, {
+      "id": "d9ba092a-1735-4aa4-aea3-d126eb1619e2",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=AIRTIME_FORM_01-BTN_TELKOM",
+      "targets": [
+        ["id=AIRTIME_FORM_01-BTN_TELKOM", "id"],
+        ["name=BTN_TELKOM", "name"],
+        ["css=#AIRTIME_FORM_01-BTN_TELKOM", "css:finder"],
+        ["xpath=//button[@id='AIRTIME_FORM_01-BTN_TELKOM']", "xpath:attributes"],
+        ["xpath=//div[@id='div_0']/div/div/div/div/form/div/div/div[4]/div/div/div/div/div/div/form/div[3]/di/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/di/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'TELKOM')]", "xpath:innerText"]
+      ],
+      "value": "12.36669921875,76"
+    }, {
+      "id": "b98b5644-0a9b-4dc9-a3c0-74b6c245501b",
+      "comment": "",
+      "command": "click",
+      "target": "id=AIRTIME_FORM_01-BTN_TELKOM",
+      "targets": [
+        ["id=AIRTIME_FORM_01-BTN_TELKOM", "id"],
+        ["name=BTN_TELKOM", "name"],
+        ["css=#AIRTIME_FORM_01-BTN_TELKOM", "css:finder"],
+        ["xpath=//button[@id='AIRTIME_FORM_01-BTN_TELKOM']", "xpath:attributes"],
+        ["xpath=//div[@id='div_0']/div/div/div/div/form/div/div/div[4]/div/div/div/div/div/div/form/div[3]/di/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/di/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'TELKOM')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1871938d-f0df-451c-abbc-e7a32980e6bd",
+      "comment": "",
+      "command": "click",
+      "target": "id=AIRTIME_FORM_01-BTN_FAIBA",
+      "targets": [
+        ["id=AIRTIME_FORM_01-BTN_FAIBA", "id"],
+        ["name=BTN_FAIBA", "name"],
+        ["css=#AIRTIME_FORM_01-BTN_FAIBA", "css:finder"],
+        ["xpath=//button[@id='AIRTIME_FORM_01-BTN_FAIBA']", "xpath:attributes"],
+        ["xpath=//div[@id='div_0']/div/div/div/div/form/div/div/div[4]/div/div/div/div/div/div/form/div[4]/di/div/button", "xpath:idRelative"],
+        ["xpath=//div[4]/di/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'FAIBA')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d58168d-b69e-4b9f-ae97-f7dd32100bba",
+      "comment": "",
+      "command": "click",
+      "target": "id=AIRTIME_FORM_01-BTN_TELKOM",
+      "targets": [
+        ["id=AIRTIME_FORM_01-BTN_TELKOM", "id"],
+        ["name=BTN_TELKOM", "name"],
+        ["css=#AIRTIME_FORM_01-BTN_TELKOM", "css:finder"],
+        ["xpath=//button[@id='AIRTIME_FORM_01-BTN_TELKOM']", "xpath:attributes"],
+        ["xpath=//div[@id='div_0']/div/div/div/div/form/div/div/div[4]/div/div/div/div/div/div/form/div[3]/di/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/di/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'TELKOM')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e23b389-8a86-4db2-8c9d-ac6dd7401121",
+      "comment": "",
+      "command": "click",
+      "target": "id=AIRTIME_FORM_01-BTN_FAIBA",
+      "targets": [
+        ["id=AIRTIME_FORM_01-BTN_FAIBA", "id"],
+        ["name=BTN_FAIBA", "name"],
+        ["css=#AIRTIME_FORM_01-BTN_FAIBA", "css:finder"],
+        ["xpath=//button[@id='AIRTIME_FORM_01-BTN_FAIBA']", "xpath:attributes"],
+        ["xpath=//div[@id='div_0']/div/div/div/div/form/div/div/div[4]/div/div/div/div/div/div/form/div[4]/di/div/button", "xpath:idRelative"],
+        ["xpath=//div[4]/di/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'FAIBA')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6025e0a7-5cce-4f60-b105-f63bca764a0a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.coop-btn-light",
+      "targets": [
+        ["css=.coop-btn-light", "css:finder"],
+        ["xpath=//button[@onclick=\"window.open(personalBankingUrl,'_blank')\"]", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win8850",
+      "windowTimeout": 2000
+    }, {
+      "id": "707ff7a7-55f1-4f9c-9f92-93565d194c79",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win8850}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8a641164-52ea-4112-98b8-fcbb173793cc",
+      "comment": "",
+      "command": "click",
+      "target": "id=mat-input-0",
+      "targets": [
+        ["id=mat-input-0", "id"],
+        ["css=#mat-input-0", "css:finder"],
+        ["xpath=//input[@id='mat-input-0']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc614bcf-c636-424a-8df3-0b26f4378360",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-0",
+      "targets": [
+        ["id=mat-input-0", "id"],
+        ["css=#mat-input-0", "css:finder"],
+        ["xpath=//input[@id='mat-input-0']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "vsita"
+    }, {
+      "id": "361f7627-ac7a-42e3-8cd2-eba2e36ed809",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c6-1 .mat-form-field-infix",
+      "targets": [
+        ["css=.ng-tns-c6-1 .mat-form-field-infix", "css:finder"],
+        ["xpath=//mat-form-field[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac0926f5-d13b-4674-a3f4-06632992ad14",
+      "comment": "",
+      "command": "click",
+      "target": "id=mat-input-0",
+      "targets": [
+        ["id=mat-input-0", "id"],
+        ["css=#mat-input-0", "css:finder"],
+        ["xpath=//input[@id='mat-input-0']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b532a32-861b-49c8-8220-c88e1a2f44e4",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-0",
+      "targets": [
+        ["id=mat-input-0", "id"],
+        ["css=#mat-input-0", "css:finder"],
+        ["xpath=//input[@id='mat-input-0']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "vsitati"
+    }, {
+      "id": "22e2ae8a-2721-476c-8fe7-fbbd1701e8f8",
+      "comment": "",
+      "command": "click",
+      "target": "id=mat-input-1",
+      "targets": [
+        ["id=mat-input-1", "id"],
+        ["css=#mat-input-1", "css:finder"],
+        ["xpath=//input[@id='mat-input-1']", "xpath:attributes"],
+        ["xpath=//mat-form-field[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fef24327-6d17-4146-93ce-f22968cde1b2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-raised-button:nth-child(1)",
+      "targets": [
+        ["css=.mat-raised-button:nth-child(1)", "css:finder"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "12ec96c4-f686-42e9-a2f4-81b465274e14",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-1",
+      "targets": [
+        ["id=mat-input-1", "id"],
+        ["css=#mat-input-1", "css:finder"],
+        ["xpath=//input[@id='mat-input-1']", "xpath:attributes"],
+        ["xpath=//mat-form-field[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "111111"
+    }, {
+      "id": "0463fafb-9e96-4e63-9a00-c7b2b9984de8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cdk-focused",
+      "targets": [
+        ["css=.cdk-focused", "css:finder"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b7866ee-c31a-4c92-85de-ba97fae65e66",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.cdk-focused",
+      "targets": [
+        ["css=.cdk-focused", "css:finder"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4bc9b5c1-8b84-4f70-980b-97f3276a11f0",
+      "comment": "",
+      "command": "type",
+      "target": "css=.otp-input:nth-child(1)",
+      "targets": [
+        ["css=.otp-input:nth-child(1)", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//mat-dialog-container[@id='mat-dialog-0']/app-otp-dialog/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "73b69672-4355-4077-9929-cbe22af28995",
+      "comment": "",
+      "command": "type",
+      "target": "css=.otp-input:nth-child(2)",
+      "targets": [
+        ["css=.otp-input:nth-child(2)", "css:finder"],
+        ["xpath=(//input[@type='text'])[3]", "xpath:attributes"],
+        ["xpath=//mat-dialog-container[@id='mat-dialog-0']/app-otp-dialog/div/form/div/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "90789e55-d41f-47f9-a761-cd7a01286796",
+      "comment": "",
+      "command": "type",
+      "target": "css=.otp-input:nth-child(3)",
+      "targets": [
+        ["css=.otp-input:nth-child(3)", "css:finder"],
+        ["xpath=(//input[@type='text'])[4]", "xpath:attributes"],
+        ["xpath=//mat-dialog-container[@id='mat-dialog-0']/app-otp-dialog/div/form/div/div/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "14f8cce7-3dbd-41b9-ac70-a59748f4f504",
+      "comment": "",
+      "command": "type",
+      "target": "css=.otp-input:nth-child(4)",
+      "targets": [
+        ["css=.otp-input:nth-child(4)", "css:finder"],
+        ["xpath=(//input[@type='text'])[5]", "xpath:attributes"],
+        ["xpath=//mat-dialog-container[@id='mat-dialog-0']/app-otp-dialog/div/form/div/div/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "2bf80b12-aa6f-4532-b907-09d30c97be6f",
+      "comment": "",
+      "command": "type",
+      "target": "css=.otp-input:nth-child(5)",
+      "targets": [
+        ["css=.otp-input:nth-child(5)", "css:finder"],
+        ["xpath=(//input[@type='text'])[6]", "xpath:attributes"],
+        ["xpath=//mat-dialog-container[@id='mat-dialog-0']/app-otp-dialog/div/form/div/div/input[5]", "xpath:idRelative"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "123d840d-09f4-409a-be5f-c5aef0419b18",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ng-untouched",
+      "targets": [
+        ["css=.ng-untouched", "css:finder"],
+        ["xpath=(//input[@type='text'])[7]", "xpath:attributes"],
+        ["xpath=//mat-dialog-container[@id='mat-dialog-0']/app-otp-dialog/div/form/div/div/input[6]", "xpath:idRelative"],
+        ["xpath=//input[6]", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "61431a81-66d0-4497-9b18-0f210d730e08",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cdk-focused > .mat-button-wrapper",
+      "targets": [
+        ["css=.cdk-focused > .mat-button-wrapper", "css:finder"],
+        ["xpath=//mat-dialog-container[@id='mat-dialog-0']/app-otp-dialog/div/form/div[3]/button/span", "xpath:idRelative"],
+        ["xpath=//form/div[3]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Confirm')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5bdeb78c-f7aa-4f28-8934-27c58022ac89",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Transfer",
+      "targets": [
+        ["linkText=Transfer", "linkText"],
+        ["css=.flaticon-COOP_FUND_TRANSFER_WS", "css:finder"],
+        ["xpath=(//a[contains(text(),'Transfer')])[3]", "xpath:link"],
+        ["xpath=//div[@id='mCSB_1_container']/div/div[39]/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[71]", "xpath:href"],
+        ["xpath=//div[39]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d47e81b6-46ec-4aff-b94a-a14499c3da80",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "linkText=Transfer",
+      "targets": [
+        ["linkText=Transfer", "linkText"],
+        ["css=.flaticon-COOP_FUND_TRANSFER_WS", "css:finder"],
+        ["xpath=(//a[contains(text(),'Transfer')])[3]", "xpath:link"],
+        ["xpath=//div[@id='mCSB_1_container']/div/div[39]/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[71]", "xpath:href"],
+        ["xpath=//div[39]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e793bdc4-3068-46b9-a217-2e242fea8548",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='0']/div/div/div/div/div[4]/div",
+      "targets": [
+        ["xpath=//div[@id='0']/div/div/div/div/div[4]/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/div/div/div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "33e575c0-f2b9-4989-af2e-c5331e8c7ad0",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "xpath=//div[@id='0']/div/div/div/div/div[4]/div",
+      "targets": [
+        ["xpath=//div[@id='0']/div/div/div/div/div[4]/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/div/div/div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c071c77-743e-409d-b59e-e14c06add314",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='mobbank']/div/span",
+      "targets": [
+        ["xpath=//div[@id='mobbank']/div/span", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Mpesa')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9aebf083-b472-439d-b1bf-16cd19faf869",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3679278b-bdf0-4387-b21d-7f72a19d8fe0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-untouched:nth-child(2)",
+      "targets": [
+        ["css=.ng-untouched:nth-child(2)", "css:finder"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ed49573d-1a7c-4492-90ad-6fb33349fa1d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["50b56cfd-5f2e-4f13-8079-89a31a9abcb9"]
+  }],
+  "urls": ["https://retail-onlinebanking-uat.co-opbank.co.ke/"],
+  "plugins": []
+}
